@@ -11,6 +11,17 @@
     .preview {
       display: flex;
       justify-content: space-between;
+
+      @media only screen and (max-width: 800px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 25px;
+      }
+    }
+
+    @media only screen and (max-width: 800px){
+      align-items: center;
     }
   }
   

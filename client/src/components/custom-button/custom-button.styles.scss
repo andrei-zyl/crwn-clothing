@@ -16,6 +16,11 @@
   display: flex;
   justify-content: center;
 
+  &.media{
+    min-width: 80px;
+    padding: 0 20px;
+  }
+
   &:hover {
     background-color: white;
     color: black;

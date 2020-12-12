@@ -42,8 +42,8 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
                     required/>
                 
                 <div className='buttons'>
-                    <CustomButton type='submit'>Sign in</CustomButton>
-                    <CustomButton type='button' onClick={googleSignInStart} isGoogleSignIn>Sign in with Google</CustomButton>
+                    <CustomButton className='custom-button media' type='submit'>Sign in</CustomButton>
+                    <CustomButton className='custom-button media google-sign-in' type='button' onClick={googleSignInStart}>Sign in with Google</CustomButton>
                 </div>                   
             </form>
         </div>

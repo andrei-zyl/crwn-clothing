@@ -66,7 +66,7 @@ const SignUp = ({signUpStart}) => {
                     handleChange={handleChange} 
                     label='Confirm Password' 
                     required/>
-                <CustomButton type='submit'>Sign up</CustomButton>    
+                <CustomButton className='custom-button media' type='submit'>Sign up</CustomButton>    
             </form>               
         </div>
     )
